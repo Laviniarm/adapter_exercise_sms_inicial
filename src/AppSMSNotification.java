@@ -1,22 +1,26 @@
-import api.SMSSender;
-import api.TimService;
-import api.VivoAdapter;
-import api.VivoService;
+import api.*;
 import model.SMS;
 
 public class AppSMSNotification {
+	public static void main(String[] args) {
 
-	public static void main(String[] args)  {
-		SMSSender sender = new TimService();
-		
-		SMS message = new SMS("83988885544","83988221133","Bom dia. Seu boleto ja esta disponivel para pagamento");
-		
-		sender.sendSMS(message);	
+		SMS message1 = new SMS("83988885544", "41888221133", "Bom dia. Seu boleto já está disponível para pagamento.");
+		SMS message2 = new SMS("83988885544", "15888221133", "Bom dia. Seu boleto já está disponível para pagamento / VIVO.");
 
-		SMSSender sender2 = new VivoAdapter();
+		enviarSMS(message1);
+		enviarSMS(message2);
+	}
 
-		SMS message2 = new SMS("83988885544","83988221133","Bom dia. Seu boleto ja esta disponivel para pagamento/ vivo");
+	private static void enviarSMS(SMS sms) {
+		try {
 
-		sender2.sendSMS(message2);
+			SMSSender sender = SMSFactoryOperadora.getRemetente(sms.getDestino());
+
+			boolean sucesso = sender.sendSMS(sms);
+			System.out.println(sucesso ? "SMS enviado com sucesso!" : "Falha no envio do SMS.");
+
+		} catch (IllegalArgumentException e) {
+			System.out.println("Erro: " + e.getMessage());
+		}
 	}
 }

@@ -5,7 +5,6 @@ import java.time.format.DateTimeFormatter;
 
 public class VivoService {
 
-
 	public void enviarSMS(String origem, String destino, LocalDateTime time, String[] msgs) throws SMSException {
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");   
 
