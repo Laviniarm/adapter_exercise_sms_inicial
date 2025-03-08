@@ -1,5 +1,8 @@
-package api;
+package api.adapter;
 
+import api.SMSException;
+import api.SMSSender;
+import api.VivoService;
 import model.SMS;
 
 import java.util.ArrayList;
@@ -9,7 +12,7 @@ public class VivoAdapter implements SMSSender {
     private VivoService service;
 
     public VivoAdapter() {
-        this.service = new VivoService();
+        this.service = VivoService.getInstance();
     }
 
     @Override
