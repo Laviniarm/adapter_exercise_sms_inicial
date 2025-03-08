@@ -1,37 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="058969b6-01a0-4331-83b1-aa37c7eb206f" name="Changes" comment="" />
+    <list default="true" id="058969b6-01a0-4331-83b1-aa37c7eb206f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/AppSMSNotification.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/AppSMSNotification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/api/SMSException.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/api/SMSException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/api/SMSSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/api/SMSSender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/api/TimService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/api/TimService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/api/VivoAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/api/VivoAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/api/VivoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/api/VivoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/SMS.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/SMS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppSMSNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppSMSNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/factory/SMSFactoryOperadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/factory/SMSFactoryOperadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/SMSDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/SMSDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/TranslationDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/TranslationDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/Translator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/Translator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/SMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/SMS.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2txNL5sohu3XLYUw5Sov9KkA11H" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projetos/IFPB/Padroes/adapter_exercise_sms_inicial/adapter_exercise_sms_inicial",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AppSMSNotification.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IFPB/P5/Padrões/adapter_exercise_sms_inicial&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
-      </set>
-    </attachedChunks>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,6 +73,8 @@
       <option name="presentableId" value="Default" />
       <updated>1741289706882</updated>
       <workItem from="1741289708484" duration="41000" />
+      <workItem from="1741452157393" duration="3782000" />
+      <workItem from="1741456261772" duration="2525000" />
     </task>
     <servers />
   </component>
