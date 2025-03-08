@@ -1,4 +1,4 @@
-package model;
+package api.model;
 
 import java.time.LocalDateTime;
 
@@ -8,6 +8,7 @@ public class SMS {
 	private String origem;
 	private String texto;
 	private LocalDateTime timestamp;
+	private boolean translate = false;
 	
 	public SMS(String origem, String destino, String texto) {
 		this.origem = origem;
@@ -42,6 +43,14 @@ public class SMS {
 
 	public void setTexto(String texto) {
 		this.texto = texto;
+	}
+
+	public boolean getTranslate() {
+		return translate;
+	}
+
+	public void setTranslate(boolean translate) {
+		this.translate = translate;
 	}
 
 }

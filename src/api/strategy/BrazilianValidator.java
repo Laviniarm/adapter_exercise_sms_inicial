@@ -1,4 +1,4 @@
-package strategy;
+package api.strategy;
 
 public class BrazilianValidator implements Validator {
     @Override

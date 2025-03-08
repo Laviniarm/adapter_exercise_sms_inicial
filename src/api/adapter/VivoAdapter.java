@@ -3,7 +3,7 @@ package api.adapter;
 import api.SMSException;
 import api.SMSSender;
 import api.VivoService;
-import model.SMS;
+import api.model.SMS;
 
 import java.util.ArrayList;
 import java.util.List;

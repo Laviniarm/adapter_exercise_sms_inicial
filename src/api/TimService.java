@@ -1,6 +1,6 @@
 package api;
 
-import model.SMS;
+import api.model.SMS;
 import java.time.format.DateTimeFormatter;
 
 public class TimService implements SMSSender{

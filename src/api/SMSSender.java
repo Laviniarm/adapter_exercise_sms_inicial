@@ -1,6 +1,6 @@
 package api;
 
-import model.SMS;
+import api.model.SMS;
 
 public interface SMSSender {
 

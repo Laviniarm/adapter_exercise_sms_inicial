@@ -1,12 +1,12 @@
-package decorator;
+package api.decorator;
 
 import api.SMSSender;
-import model.SMS;
+import api.model.SMS;
 
 public class SMSDecorator implements SMSSender {
     protected SMSSender wrapper;
 
-    public SMSDecorator() {
+    public SMSDecorator(SMSSender wrapper) {
         this.wrapper = wrapper;
     }
 

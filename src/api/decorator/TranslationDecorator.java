@@ -1,8 +1,7 @@
-package decorator;
+package api.decorator;
 
 import api.SMSSender;
 import api.model.SMS;
-import api.decorator.Translator;
 
 public class TranslationDecorator extends SMSDecorator {
     public TranslationDecorator(SMSSender wrapper) {
@@ -11,14 +10,18 @@ public class TranslationDecorator extends SMSDecorator {
 
     @Override
     public boolean sendSMS(SMS sms) {
-        if (sms.isTranslate()) {
+        if (sms.getTranslate()) {
             try {
-                String translatedText = Translator.translate(sms.getTexto(), "pt", "en");
+                String translatedText = translate(sms.getTexto(), "en", "pt");
                 sms.setTexto(translatedText);
             } catch (Exception e) {
                 throw new RuntimeException("Erro ao traduzir a mensagem.", e);
             }
         }
         return super.sendSMS(sms);
+    }
+
+    public String translate(String text, String from, String to) throws Exception {
+        return Translator.translate(from, to, text);
     }
 }
